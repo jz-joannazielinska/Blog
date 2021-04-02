@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 describe Post, type: :model do
-  subject(:post) { Post.new(title: 'title', content: 'content') }
+  subject(:post) { build(:post) }
 
   describe 'validations' do
     it { is_expected.to validate_presence_of(:title) }
