@@ -36,7 +36,7 @@ group :test do
   gem 'webdrivers'
   gem 'database_cleaner'
   gem 'factory_bot_rails'
-  gem 'faker'
+  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
   gem 'shoulda-matchers', '~> 4.0'
 end
 
